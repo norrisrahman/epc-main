@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Abril Fatface", cursive;
+  background-color: #c5d8ab;
+  margin: 0 auto;
+  height: 100% !important;
+  width: 90%;
+}
+
+h1 {
+    @media (max-width: 575.98px) {
+        font-size: 40px;
+      }
+      @media (min-width: 768px) {
+        font-size: 72px;
+      }
+}
+
+.first-section {
+  .container {
+    .first-line {
+      margin-left: auto;
+      margin-right: auto;
+      .normal-line {
+          border-bottom: 10px solid #424a63;
+      }
+      .dashed-line {
+          margin-top: 20px;
+          border-bottom: 20px dashed #E56848;
+      }
+    }
+    .hero-content {
+      padding-top: 9em;
+      padding-bottom: 11em;
+      .epc-logo {
+        img {
+          @media (max-width: 575.98px) {
+            display: block;
+            width: 250px;
+            height: auto;
+            margin: auto;
+          }
+          @media (min-width: 768px) {
+            display: block;
+            width: 600px;
+            height: auto;
+            margin: auto;
+          }
+        }
+      }
+      .epc-title {
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+        margin-top: 2em;
+        color: #424a63;
+      }
+    }
+  }
+}
+
+.section-two {
+    margin-top: 3em;
+    .section-title {
+        color: #424a63;
+    }
+    .content {
+        margin-top: 1em;
+        .name {
+            ul {
+                li {
+                    font-family: 'Zilla Slab', serif;
+                    color :#E56848;
+                    font-size: 36px;
+                    font-weight: 600;
+                    list-style: none;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .date {
+            
+        }
+    }
+}
