@@ -7,7 +7,7 @@ body {
   background-color: #c5d8ab;
   margin: 0 auto;
   height: 100% !important;
-  width: 100%;
+  width: 100% !important;
 }
 
 @media (max-width: 575.98px) {
@@ -41,8 +41,8 @@ body {
   position: absolute;
   /* float: right; */
   right: 0;
-  right: 4em;
-  top: 15em;
+  right: 4%;
+  top: 40%;
   z-index: -4;
 }
 
@@ -65,22 +65,11 @@ body {
   padding-bottom: 11em;
 }
 
-@media (max-width: 575.98px) {
-  .first-section .container .hero-content .epc-logo img {
-    display: block;
-    width: 250px;
-    height: auto;
-    margin: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .first-section .container .hero-content .epc-logo img {
-    display: block;
-    width: 600px;
-    height: auto;
-    margin: auto;
-  }
+.first-section .container .hero-content .epc-logo img {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: auto;
 }
 
 .first-section .container .hero-content .epc-title {
@@ -105,7 +94,11 @@ body {
   position: absolute;
   left: 50%;
   z-index: -5;
-  top: -5%;
+  top: 0%;
+}
+
+.section-two .bg-attribute-2 img {
+  max-width: 75%;
 }
 
 .section-two .section-title {
@@ -113,7 +106,7 @@ body {
 }
 
 .section-two .content {
-  margin-top: 1em;
+  padding-top: 3em;
 }
 
 .section-two .content .content-date {
@@ -143,6 +136,10 @@ body {
   line-height: 2rem;
 }
 
+.section-two .content .date ul li a {
+  color: #e56848;
+}
+
 .bg-attribute-sc3 {
   position: relative;
   margin-top: 2em;
@@ -156,7 +153,15 @@ body {
 }
 
 .section-three {
-  background-color: #FFEBB0;
+  background-color: #ffebb0;
+}
+
+.section-three .content-list ul li {
+  list-style: none;
+  font-family: 'Zilla Slab';
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 footer.footer-blue {
@@ -211,5 +216,78 @@ footer.footer-blue .copyright {
   font-family: "Zilla Slab", serif;
   color: #fde7b6;
   font-size: 1rem;
+}
+
+@media (min-width: 321px) and (max-width: 450px) {
+  .first-section {
+    position: relative;
+  }
+  .first-section .bg-attribute {
+    position: absolute;
+    top: 3em;
+    z-index: -4;
+  }
+  .first-section .bg-attribute img {
+    width: 8rem;
+    height: auto;
+  }
+  .first-section .bg-attribute-after {
+    position: absolute;
+    /* float: right; */
+    right: 0;
+    right: 4%;
+    top: 47%;
+    z-index: -4;
+  }
+  .first-section .bg-attribute-after img {
+    max-width: 6rem;
+  }
+  .first-section .container .first-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first-section .container .first-line .normal-line {
+    border-bottom: 7px solid #424a63;
+  }
+  .first-section .container .first-line .dashed-line {
+    margin-top: 20px;
+    border-bottom: 13px dashed #e56848;
+  }
+  .first-section .container .hero-content {
+    padding-top: 9em;
+    padding-bottom: 11em;
+  }
+  .first-section .container .hero-content .epc-logo img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .first-section .container .hero-content .epc-title {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 2em;
+    color: #424a63;
+  }
+  .section-two {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3em;
+  }
+  .section-two .bg-attribute-1 {
+    margin-top: 0.6em;
+    left: -1.7rem;
+  }
+  .section-two .bg-attribute-1 img {
+    max-width: 2.3rem;
+  }
+  .section-two .container .bg-attribute-2 {
+    left: 78%;
+    top: 13%;
+  }
+  .section-two .container .bg-attribute-2 img {
+    max-width: 12rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
