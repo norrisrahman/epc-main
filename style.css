@@ -153,15 +153,47 @@ body {
 }
 
 .section-three {
+  color: #424a63;
+  font-family: "Zilla Slab";
+  font-size: 1.5rem;
+  font-weight: 600;
   background-color: #ffebb0;
+  margin-top: -0.5em;
+}
+
+.section-three .content-list {
+  padding: 1em 0;
 }
 
 .section-three .content-list ul li {
-  list-style: none;
-  font-family: 'Zilla Slab';
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  font-weight: 600;
+  list-style: auto;
+  margin-bottom: 2rem;
+}
+
+.section-three .regist-btn {
+  padding-bottom: 1em;
+}
+
+.section-three .regist-btn a {
+  color: #fde7b6;
+  text-decoration: underline;
+  display: inline-block;
+  background-color: #e56848;
+  margin-left: 10%;
+  width: 15em;
+  text-align: center;
+  padding: 0.3em;
+  text-decoration: none;
+}
+
+.section-three .regist-btn a:hover {
+  background-color: #fa6540;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section-three .contact-person {
+  padding: 2em 0 2em 2em;
 }
 
 footer.footer-blue {
@@ -288,6 +320,33 @@ footer.footer-blue .copyright {
   }
   .section-two .container .bg-attribute-2 img {
     max-width: 12rem;
+  }
+  .section-three {
+    font-size: 1.5rem;
+  }
+  .section-three .content-list {
+    padding: 1em 0;
+  }
+  .section-three .content-list ul li {
+    list-style: auto;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  .section-three .regist-btn {
+    padding-bottom: 1em;
+  }
+  .section-three .regist-btn a {
+    margin-left: 3%;
+    width: 100%;
+    padding: 0.3em;
+  }
+  .section-three .regist-btn a:hover {
+    background-color: #fa6540;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .section-three .contact-person {
+    padding: 2em 0 2em 2em;
   }
 }
 /*# sourceMappingURL=style.css.map */
